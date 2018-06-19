@@ -1,5 +1,5 @@
 {
-  "name": "vue-anime",
+  "name": "vue-animejs",
   "version": "1.0.0",
   "description": "A simple Vue plugin for binding Anime.js",
   "main": "index.js",

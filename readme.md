@@ -5,11 +5,11 @@ Simple Vue bindings for Anime.js
 #### Install
 
 ```bash
-$ npm install --save vue-anime
+$ npm install --save vue-animejs
 ```
 
 ```js
-import VueAnime from 'vue-anime';
+import VueAnime from 'vue-animejs';
 
 Vue.use(VueAnime)
 ```
