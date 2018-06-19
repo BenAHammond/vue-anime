@@ -1,9 +1,10 @@
 const anime = require('animejs');
 
-module.exports.default = {
+const VueAnime = {
   install: function (Vue, options) {
-    Vue.directive('my-directive', {
+    Vue.directive('anime', {
       bind(el, binding) {
+        console.log('Binding', el);
         const opts = Object.assign({}, binding.value, { targets: el })
         anime(opts);
       }
@@ -11,4 +12,6 @@ module.exports.default = {
     // 4. add an instance method
     Vue.prototype.$anime = anime;
   }
-}
+};
+
+module.exports = VueAnime;

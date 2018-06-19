@@ -24,7 +24,7 @@
     "url": "https://github.com/BenAHammond/vue-anime/issues"
   },
   "homepage": "https://github.com/BenAHammond/vue-anime#readme",
-  "peerDependencies": {
-    "animejs": "^2.2.0"
+  "dependencies": {
+    "animejs": "~2"
   }
 }
