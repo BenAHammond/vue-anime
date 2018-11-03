@@ -18,7 +18,7 @@ Vue.use(VueAnime)
 
 > Adds a simple directive named `v-anime` that passes all arguments directly to [anime.js](https://github.com/juliangarnier/anime/)
 ```html
-<div v-anime="{ rotate: '1turn', backgroundColor: '#FFF', duration: 2000, loop: true }"><div>
+<div v-anime="{ rotate: '1turn', backgroundColor: '#FFF', duration: 2000, loop: true }"></div>
 ```
 
 > Also adds this.$anime to your components
