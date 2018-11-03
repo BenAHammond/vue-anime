@@ -29,7 +29,21 @@ export default {
     return {};
   },
   mounted() {
-    this.$anime(/* ... animate something ... */)
+    const targets = this.$el;
+    this
+      .$anime
+      .timeline()
+      .add({
+        targets,
+        translateX: 250,
+        easing: 'easeOutExpo',
+      })
+      .add({
+        targets,
+        translateX: 250,
+        easing: 'easeOutExpo',
+      });
+      /* ... etc ... */
   },
 }
 ```
