@@ -1,15 +1,17 @@
-const anime = require('animejs');
+'use strict';
 
-function install (Vue) {
+var anime = require('animejs');
+
+function install(Vue) {
   Vue.directive('anime', {
-    bind(targets, binding) {
-      const opts = Object.assign({}, binding.value, { targets })
+    bind: function bind(targets, binding) {
+      var opts = Object.assign({}, binding.value, { targets: targets });
       anime(opts);
     }
-  })
+  });
   Vue.prototype.$anime = anime;
 }
 
 module.exports = {
-  install
+  install: install
 };
