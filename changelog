@@ -1,3 +1,12 @@
+### 2.1.1
+Adds unit tests and a flexible import that detects `default`
+
+### 2.1.0
+Updates the minor version to change to the new animejs default export usage
+
+### 2.0.0
+Updates the major version to map to a new version of animejs
+
 ### 1.0.2
 Refactors the code for IE compatibility
 
