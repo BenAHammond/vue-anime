@@ -1,6 +1,9 @@
 'use strict';
 
-var anime = require('animejs').default;
+var anime = require('animejs');
+if (anime.default) {
+  anime = anime.default;
+}
 
 function install(Vue) {
   Vue.directive('anime', {
