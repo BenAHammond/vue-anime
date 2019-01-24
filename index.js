@@ -1,3 +1,4 @@
+(function() {
 'use strict';
 
 var anime = require('animejs').default;
@@ -15,3 +16,4 @@ function install(Vue) {
 module.exports = {
   install: install
 };
+})();
