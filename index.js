@@ -11,6 +11,10 @@ function install(Vue) {
     bind: function bind(targets, binding) {
       var opts = Object.assign({}, binding.value, { targets: targets });
       anime(opts);
+    },
+    update: function bind(targets, binding) {
+      var opts = Object.assign({}, binding.value, { targets: targets });
+      anime(opts);
     }
   });
   Vue.prototype.$anime = anime;
