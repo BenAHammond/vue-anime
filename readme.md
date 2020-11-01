@@ -1,6 +1,6 @@
 ### Vue-Anime
 
-Simple Vue bindings for Anime.js
+Simple Vue bindings for [Anime.js](https://github.com/juliangarnier/anime/)
 
 #### Install
 
